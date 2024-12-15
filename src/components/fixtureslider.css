@@ -1,0 +1,116 @@
+/* Global Styles */
+body {
+    background-color: #f0f0f0;  /* Neutral light gray */
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+/* Slider Container */
+.sportsmagazine-fixture-slider {
+   
+    background-color: #ffffff;
+    margin-bottom: 30px;
+    position: relative;
+    margin-top: 50px;
+}
+
+/* Slider Arrows */
+.slick-arrow-left, .slick-arrow-right {
+    background-color: #333; /* Dark gray for arrows */
+    border-radius: 50%;
+    padding: 10px;
+    top: 35%; /* Align vertically centered */
+    z-index: 1;
+    width: 40px;
+    height: 40px;
+}
+
+.slick-arrow-left i, .slick-arrow-right i {
+    font-size: 20px; /* Smaller arrow icons */
+    color: #fff;     /* White icons */
+}
+
+.slick-arrow-left:hover, .slick-arrow-right:hover {
+    opacity: 0.9;
+}
+
+/* Fixture Slide Styles */
+.sportsmagazine-fixture-slider-layer {
+    background-color: #333;  /* Dark gray */
+    border-radius: 5px;
+    text-align: center;
+    min-width: 220px;  /* Fixed width for compact size */
+    max-width: 220px;
+    
+    position: relative;
+}
+
+/* Date Styling */
+.sportsmagazine-fixture-slider-layer time {
+    font-size: 12px;  /* Smaller font for date */
+    color: #ccc;      /* Lighter gray for dates */
+    margin-bottom: 5px;
+    display: block;
+    padding-top: 10px;
+}
+
+/* Fixture Teams and Scores */
+.sportsmagazine-fixture-slider-layer ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px 0;
+    background-color: #ffeb10;  /* Bright yellow */
+    border-radius: 0 0 5px 5px;
+}
+
+.sportsmagazine-fixture-slider-layer ul li {
+    font-size: 14px;  /* Match font size */
+    color: #000;      /* Black for team names */
+    font-weight: bold;
+}
+
+.sportsmagazine-fixture-slider-layer ul li span {
+    color: #fff;      /* White text for scores */
+    background-color: #000;  /* Black background for scores */
+    padding: 5px 8px;
+    border-radius: 3px;
+}
+
+/* Full Booked Style */
+.sportsmagazine-fixture-booked ul li {
+    font-style: italic;
+    color: #000;  /* Black text for "Full Booked" */
+}
+
+/* Arrows Hover */
+.slick-arrow-left:hover i, .slick-arrow-right:hover i {
+    color: #ffeb10; /* Yellow hover color */
+}
+
+/* Dots Navigation */
+.slick-dots li button:before {
+    color: #ffeb10;  /* Yellow dots */
+    opacity: 0.8;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #ffeb10;  /* Active dot color */
+    opacity: 1;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .sportsmagazine-fixture-slider-layer {
+        min-width: 180px;  /* Smaller slides on mobile */
+    }
+
+    .slick-arrow-left, .slick-arrow-right {
+        width: 30px;
+        height: 30px;
+        top: 45%; /* Adjust arrow positioning */
+    }
+
+    .slick-arrow-left i, .slick-arrow-right i {
+        font-size: 15px; /* Smaller icons on mobile */
+    }
+}

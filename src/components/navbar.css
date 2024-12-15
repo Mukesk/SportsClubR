@@ -1,0 +1,142 @@
+.nav{
+    background-image:URL("/IMAGES/fancytitle-pattren.png");
+    color: #FFF;
+    position:static;
+}
+
+.navbar-toggler-icon{
+    color: #FFF;
+}
+ /* navbar.css */
+
+.navbar {
+    background-color: #333; /* Navbar background color */
+  }
+  
+  .inkd {
+    position: relative;
+    color: #ffeb10; /* Initial text color */
+    padding: 10px;
+    text-transform: uppercase; /* Optional: make the text uppercase */
+    text-decoration: none;
+    transition: color 0.5s ease;
+    z-index: 1; /* Ensures the text is above the pseudo-elements */
+  }
+  
+  .inkd:before,
+  .inkd:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 2px solid transparent;
+    transition: all 0.5s ease;
+    z-index: -1; /* Ensures the border is behind the text */
+  }
+  
+  .inkd:before {
+    top: 0;
+    left: 0;
+    border-top-color: transparent;
+    border-left-color: transparent;
+  }
+  
+  .inkd:after {
+    right: 0;
+    bottom: 0;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+  }
+  
+  .inkd:hover::before,
+  .inkd:hover::after {
+    width: 100%;
+    height: 100%;
+    border-color: #ffeb10; /* Border color when hovered */
+  }
+  
+  .inkd:hover {
+    color:  #ffeb10 !important; /* Change text color on hover */
+    z-index: 1; /* Keeps the text color change on top */
+  }
+  
+  /* navbar.css */
+
+/* navbar.css */
+
+.navbar {
+    background-color: #333;
+    position:static;
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: space-around; /* Distribute links evenly */
+    width: 100%; /* Ensure the Nav takes full width */
+    align-items: center;
+  }
+  
+  .inkd {
+    color: #fff;
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .inkd:hover {
+    color: #ff6347;
+  }
+  /* navbar.css */
+
+.navbar {
+  background-color: #333; /* Navbar background color */
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around; /* Evenly space out nav items */
+  align-items: center;
+}
+
+.inkd {
+  color: #fff;
+  padding: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.inkd:hover {
+  color: #ff6347;
+}
+/* navbar.css */
+
+.navbar {
+  background-color: #333; /* Navbar background color */
+}
+
+.navbar-brand img {
+  width: 150px;
+  margin-right: 300px; /* Adjust logo size */
+}
+
+.nav-links {
+  display: flex;
+  gap: 0px; /* Adjust the spacing between nav items */
+}
+
+.inkd {
+  color: #fff;
+  padding: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.inkd:hover {
+  color: #ff6347;
+}
+
+  
+  

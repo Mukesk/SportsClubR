@@ -1,0 +1,35 @@
+.banner_mainimg{
+    height: 400px;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    filter: brightness(50%);
+    
+}
+.banner_main{
+    height: 400px;
+    overflow: hidden;
+}
+.banner_person{
+    z-index: 2;
+    position: relative;
+    max-width: 200px;
+    top:100px;
+    right:  600 px;
+    overflow: hidden;
+ 
+}
+
+.sub_container{
+    display: flex;
+    justify-content: space-between;
+}
+.banner_text {
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 200px;
+
+}

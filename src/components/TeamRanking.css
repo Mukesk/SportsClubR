@@ -1,0 +1,61 @@
+
+
+.widget {
+    float: left;
+    width: 100%;
+   
+}
+
+.sportsmagazine-fancy-title h2 {
+    font-size: 24px;
+    font-weight: 700;
+   
+    text-align: center;
+}
+
+.ranking-title-table, .ranking-content-table {
+    width: 100%;
+    overflow: hidden;
+    
+}
+
+.ranking-title-row, .ranking-content-row {
+    display: flex;
+    justify-content: space-between;
+   
+    border-bottom: 1px solid #e1e1e1;
+    align-items: center;
+}
+
+.ranking-title-row li, .ranking-content-row li {
+    list-style: none;
+    flex-basis: 20%;
+    text-align: center;
+}
+
+.ranking-logo {
+    text-align: left;
+    
+}
+
+.ranking-logo span {
+    display: block;
+    font-weight: 600;
+}
+
+.ranking-logo small {
+    display: block;
+    font-size: 12px;
+    color: #888;
+}
+
+img {
+    width: 30px;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.ranking-content-row li {
+    font-size: 14px;
+}

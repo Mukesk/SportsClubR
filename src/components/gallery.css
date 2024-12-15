@@ -1,0 +1,42 @@
+ h2 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 0px;
+    line-height: 1;
+    width: 400px;
+}
+.title_container{
+    background-color:#333333 ;
+    border: 2px #ffdc11;
+    width: 400px;
+}
+
+.title_container {
+    float: left;
+    width: 400px;
+    
+    border-bottom: 2px solid;
+    padding: 17px 29px;
+    position: relative;
+    margin-bottom: 30px;
+    border:#ffeb10 ;
+}
+.title_container:before {
+    content: '';
+    position: absolute;
+    right: 0px;
+   
+    top: 0px;
+    border-bottom: 58px solid;
+    border-left: 50px solid transparent;
+}
+.title_container {
+    border-color: #ffdc11;
+}
+.title_container:before {
+    border-bottom-color:  #ffdc11;
+}
+.title_container:before{
+    border-bottom-color:    #ffdc11;
+}
